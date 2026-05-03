@@ -1,6 +1,6 @@
 [versions]
 heroic = "1.7.36"
-vitamin = "3.0.3"
+vitamin = "3.4.3"
 
 [libraries]
 heroic = { module = "org.slf4j:slf4j-api", version.ref = "heroic" }
