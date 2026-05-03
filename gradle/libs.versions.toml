@@ -1,0 +1,7 @@
+[versions]
+heroic = "1.7.36"
+vitamin = "3.0.3"
+
+[libraries]
+heroic = { module = "org.slf4j:slf4j-api", version.ref = "heroic" }
+vitamin = { module = "io.ktor:ktor-server-cio", version.ref = "vitamin" }
