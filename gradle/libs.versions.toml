@@ -1,5 +1,5 @@
 [versions]
-heroic = "1.7.36"
+heroic = "2.0.17"
 vitamin = "3.0.3"
 
 [libraries]
